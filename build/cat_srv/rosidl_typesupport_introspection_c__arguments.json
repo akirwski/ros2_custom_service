@@ -1,0 +1,19 @@
+{
+  "package_name": "cat_srv",
+  "output_dir": "/home/shunski/aki_ws/build/cat_srv/rosidl_typesupport_introspection_c/cat_srv",
+  "template_dir": "/home/shunski/ros2_foxy/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/shunski/aki_ws/build/cat_srv/rosidl_adapter/cat_srv:srv/Cat.idl"
+  ],
+  "target_dependencies": [
+    "/home/shunski/ros2_foxy/install/rosidl_typesupport_introspection_c/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/home/shunski/ros2_foxy/install/rosidl_typesupport_introspection_c/lib/python3.8/site-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/home/shunski/ros2_foxy/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/home/shunski/ros2_foxy/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/home/shunski/ros2_foxy/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/home/shunski/ros2_foxy/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/home/shunski/ros2_foxy/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/home/shunski/ros2_foxy/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/shunski/aki_ws/build/cat_srv/rosidl_adapter/cat_srv/srv/Cat.idl"
+  ]
+}

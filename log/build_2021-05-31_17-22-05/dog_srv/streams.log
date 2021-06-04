@@ -1,0 +1,18 @@
+[0.046s] Invoking command in '/home/shunski/aki_ws/build/dog_srv': /home/shunski/bin/cmake /home/shunski/aki_ws/src/dog_srv -DCMAKE_INSTALL_PREFIX=/home/shunski/aki_ws/install/dog_srv
+[0.068s] -- Found ament_cmake: 0.9.8 (/home/shunski/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+[0.466s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.467s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.167s] -- Found rosidl_default_generators: 1.0.1 (/home/shunski/ros2_foxy/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[1.276s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[1.280s] -- Found rosidl_adapter: 1.2.1 (/home/shunski/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[1.572s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[1.598s] CMake Error at /home/shunski/ros2_foxy/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[1.598s]   rosidl_generate_interfaces() the passed file 'srv/dog.srv' doesn't exist
+[1.598s]   relative to the CMAKE_CURRENT_SOURCE_DIR '/home/shunski/aki_ws/src/dog_srv'
+[1.598s] Call Stack (most recent call first):
+[1.598s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[1.598s] 
+[1.599s] 
+[1.599s] -- Configuring incomplete, errors occurred!
+[1.599s] See also "/home/shunski/aki_ws/build/dog_srv/CMakeFiles/CMakeOutput.log".
+[1.605s] Invoked command in '/home/shunski/aki_ws/build/dog_srv' returned '1': /home/shunski/bin/cmake /home/shunski/aki_ws/src/dog_srv -DCMAKE_INSTALL_PREFIX=/home/shunski/aki_ws/install/dog_srv

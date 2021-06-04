@@ -1,0 +1,17 @@
+{
+  "package_name": "dog_interfaces",
+  "output_dir": "/home/shunski/aki_ws/build/dog_interfaces/rosidl_typesupport_c/dog_interfaces",
+  "template_dir": "/home/shunski/ros2_foxy/install/rosidl_typesupport_c/share/rosidl_typesupport_c/resource",
+  "idl_tuples": [
+    "/home/shunski/aki_ws/build/dog_interfaces/rosidl_adapter/dog_interfaces:srv/Dog.idl"
+  ],
+  "target_dependencies": [
+    "/home/shunski/ros2_foxy/install/rosidl_typesupport_c/lib/rosidl_typesupport_c/rosidl_typesupport_c",
+    "/home/shunski/ros2_foxy/install/rosidl_typesupport_c/lib/python3.8/site-packages/rosidl_typesupport_c/__init__.py",
+    "/home/shunski/ros2_foxy/install/rosidl_typesupport_c/share/rosidl_typesupport_c/resource/action__type_support.c.em",
+    "/home/shunski/ros2_foxy/install/rosidl_typesupport_c/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
+    "/home/shunski/ros2_foxy/install/rosidl_typesupport_c/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
+    "/home/shunski/ros2_foxy/install/rosidl_typesupport_c/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/home/shunski/aki_ws/build/dog_interfaces/rosidl_adapter/dog_interfaces/srv/Dog.idl"
+  ]
+}

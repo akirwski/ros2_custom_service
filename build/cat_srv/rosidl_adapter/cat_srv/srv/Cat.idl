@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cat_srv/srv/Cat.srv
+// generated code does not contain a copyright notice
+
+
+module cat_srv {
+  module srv {
+    struct Cat_Request {
+      int32 breed;
+    };
+    struct Cat_Response {
+      int32 breed;
+    };
+  };
+};

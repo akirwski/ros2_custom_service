@@ -1,0 +1,24 @@
+{
+  "package_name": "tutorial_interfaces",
+  "output_dir": "/home/shunski/aki_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces",
+  "template_dir": "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/shunski/aki_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:srv/AddThreeInts.idl"
+  ],
+  "target_dependencies": [
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../../../lib/python3.8/site-packages/rosidl_generator_c/__init__.py",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/shunski/aki_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/srv/AddThreeInts.idl"
+  ]
+}

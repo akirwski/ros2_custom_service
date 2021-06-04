@@ -1,0 +1,32 @@
+[35m[1mScanning dependencies of target client[0m
+[35m[1mScanning dependencies of target server[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[01m[K/home/shunski/aki_ws/src/cpp_ros2_srv/src/server.cpp:[m[K In function ‘[01m[Kvoid sendResponse(std::shared_ptr<dog_srv::srv::Dog_Request_<std::allocator<void> > >, std::shared_ptr<dog_srv::srv::Dog_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/shunski/aki_ws/src/cpp_ros2_srv/src/server.cpp:7:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    7 | void sendResponse([01;35m[Kconst std::shared_ptr<dog_srv::srv::Dog::Request> request[m[K, std::shared_ptr<dog_srv::srv::Dog::Response> response){
+      |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[ 75%] [32m[1mLinking CXX executable server[0m
+[100%] [32m[1mLinking CXX executable client[0m
+[100%] Built target server
+[100%] Built target client
+-- Install configuration: ""
+-- Installing: /home/shunski/aki_ws/install/cpp_ros2_srv/share/ament_index/resource_index/package_run_dependencies/cpp_ros2_srv
+-- Installing: /home/shunski/aki_ws/install/cpp_ros2_srv/share/ament_index/resource_index/parent_prefix_path/cpp_ros2_srv
+-- Installing: /home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/environment/ament_prefix_path.sh
+-- Installing: /home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/environment/ament_prefix_path.dsv
+-- Installing: /home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/environment/path.sh
+-- Installing: /home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/environment/path.dsv
+-- Installing: /home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/local_setup.bash
+-- Installing: /home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/local_setup.sh
+-- Installing: /home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/local_setup.zsh
+-- Installing: /home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/local_setup.dsv
+-- Installing: /home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/package.dsv
+-- Installing: /home/shunski/aki_ws/install/cpp_ros2_srv/share/ament_index/resource_index/packages/cpp_ros2_srv
+-- Installing: /home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/cmake/cpp_ros2_srvConfig.cmake
+-- Installing: /home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/cmake/cpp_ros2_srvConfig-version.cmake
+-- Installing: /home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/package.xml
+-- Installing: /home/shunski/aki_ws/install/cpp_ros2_srv/lib/cpp_ros2_srv/server
+-- Set runtime path of "/home/shunski/aki_ws/install/cpp_ros2_srv/lib/cpp_ros2_srv/server" to ""
+-- Installing: /home/shunski/aki_ws/install/cpp_ros2_srv/lib/cpp_ros2_srv/client
+-- Set runtime path of "/home/shunski/aki_ws/install/cpp_ros2_srv/lib/cpp_ros2_srv/client" to ""

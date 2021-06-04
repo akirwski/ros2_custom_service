@@ -1,0 +1,24 @@
+{
+  "package_name": "dog_srv",
+  "output_dir": "/home/shunski/aki_ws/build/dog_srv/rosidl_generator_c/dog_srv",
+  "template_dir": "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/shunski/aki_ws/build/dog_srv/rosidl_adapter/dog_srv:srv/Dog.idl"
+  ],
+  "target_dependencies": [
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../../../lib/python3.8/site-packages/rosidl_generator_c/__init__.py",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/home/shunski/ros2_foxy/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/shunski/aki_ws/build/dog_srv/rosidl_adapter/dog_srv/srv/Dog.idl"
+  ]
+}

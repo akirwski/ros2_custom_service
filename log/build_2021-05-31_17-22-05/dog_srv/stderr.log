@@ -1,0 +1,7 @@
+CMake Error at /home/shunski/ros2_foxy/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+  rosidl_generate_interfaces() the passed file 'srv/dog.srv' doesn't exist
+  relative to the CMAKE_CURRENT_SOURCE_DIR '/home/shunski/aki_ws/src/dog_srv'
+Call Stack (most recent call first):
+  CMakeLists.txt:23 (rosidl_generate_interfaces)
+
+

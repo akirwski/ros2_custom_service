@@ -1,0 +1,2 @@
+Invoking command in '/home/shunski/aki_ws/src/build/dog_srv': /home/shunski/bin/cmake /home/shunski/aki_ws/src/dog_srv -DCMAKE_INSTALL_PREFIX=/home/shunski/aki_ws/src/install/dog_srv
+Invoked command in '/home/shunski/aki_ws/src/build/dog_srv' returned '1': /home/shunski/bin/cmake /home/shunski/aki_ws/src/dog_srv -DCMAKE_INSTALL_PREFIX=/home/shunski/aki_ws/src/install/dog_srv

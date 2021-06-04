@@ -1,0 +1,7 @@
+{
+  "package_name": "dog_interfaces",
+  "non_idl_tuples": [
+    "/home/shunski/aki_ws/src/dog_interfaces:srv/Dog.srv",
+    "/home/shunski/aki_ws/src/dog_interfaces:srv/cat.srv"
+  ]
+}

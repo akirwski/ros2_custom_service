@@ -1,0 +1,6 @@
+{
+  "package_name": "cat_srv",
+  "non_idl_tuples": [
+    "/home/shunski/aki_ws/src/cat_srv:srv/Cat.srv"
+  ]
+}

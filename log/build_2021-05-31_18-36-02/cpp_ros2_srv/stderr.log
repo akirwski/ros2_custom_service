@@ -1,0 +1,31 @@
+[01m[K/home/shunski/aki_ws/src/cpp_ros2_srv/src/client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/shunski/aki_ws/src/cpp_ros2_srv/src/client.cpp:11:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ was not declared in this scope; did you mean ‘[01m[Kagrc[m[K’?
+   11 |     rclcpp::init([01;31m[Kargc[m[K, argv);
+      |                  [01;31m[K^~~~[m[K
+      |                  [32m[Kagrc[m[K
+[01m[K/home/shunski/aki_ws/src/cpp_ros2_srv/src/client.cpp:30:42:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Krclcpp::spin_until_future_complete<rclcpp::Node, std::shared_ptr<dog_srv::srv::Dog_Response_<std::allocator<void> > > >(std::shared_ptr<rclcpp::Node>(node), result, std::chrono::duration<long int, std::ratio<1, 1000> >(-1))[m[K’ from ‘[01m[Krclcpp::FutureReturnCode[m[K’ to ‘[01m[Kbool[m[K’
+   30 |     if([01;31m[Krclcpp::spin_until_future_complete(node, result)[m[K) == rclcpp::FutureReturnCode::SUCCESS) {
+      |        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+      |                                          [01;31m[K|[m[K
+      |                                          [01;31m[Krclcpp::FutureReturnCode[m[K
+[01m[K/home/shunski/aki_ws/src/cpp_ros2_srv/src/client.cpp:30:58:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K==[m[K’ token
+   30 |     if(rclcpp::spin_until_future_complete(node, result)) [01;31m[K==[m[K rclcpp::FutureReturnCode::SUCCESS) {
+      |                                                          [01;31m[K^~[m[K
+[01m[K/home/shunski/aki_ws/src/cpp_ros2_srv/src/client.cpp:10:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kagrc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   10 | int main([01;35m[Kint agrc[m[K, char **argv){
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/shunski/aki_ws/src/cpp_ros2_srv/src/server.cpp:[m[K In function ‘[01m[Kvoid sendResponse(std::shared_ptr<dog_srv::srv::Dog_Request_<std::allocator<void> > >, std::shared_ptr<dog_srv::srv::Dog_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/shunski/aki_ws/src/cpp_ros2_srv/src/server.cpp:7:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    7 | void sendResponse([01;35m[Kconst std::shared_ptr<dog_srv::srv::Dog::Request> request[m[K, std::shared_ptr<dog_srv::srv::Dog::Response> response){
+      |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/shunski/aki_ws/src/cpp_ros2_srv/src/server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/shunski/aki_ws/src/cpp_ros2_srv/src/server.cpp:23:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kshudown[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kshutdown[m[K’?
+   23 |     rclcpp::[01;31m[Kshudown[m[K();
+      |             [01;31m[K^~~~~~~[m[K
+      |             [32m[Kshutdown[m[K
+make[2]: *** [CMakeFiles/server.dir/build.make:82: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/server.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/client.dir/build.make:82: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:99: CMakeFiles/client.dir/all] Error 2
+make: *** [Makefile:160: all] Error 2

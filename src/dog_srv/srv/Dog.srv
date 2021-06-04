@@ -1,0 +1,6 @@
+int32 breed
+---
+string name
+int32 age
+bool sex
+int32 breed

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from dog_interfaces/srv/Dog.srv
+// generated code does not contain a copyright notice
+
+
+module dog_interfaces {
+  module srv {
+    struct Dog_Request {
+      int32 breed;
+    };
+    struct Dog_Response {
+      string name;
+
+      int32 age;
+
+      boolean sex;
+
+      int32 breed;
+    };
+  };
+};

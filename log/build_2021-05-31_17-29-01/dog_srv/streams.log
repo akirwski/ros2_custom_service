@@ -1,0 +1,50 @@
+[0.048s] Invoking command in '/home/shunski/aki_ws/build/dog_srv': /home/shunski/bin/cmake /home/shunski/aki_ws/src/dog_srv -DCMAKE_INSTALL_PREFIX=/home/shunski/aki_ws/install/dog_srv
+[0.074s] -- Found ament_cmake: 0.9.8 (/home/shunski/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+[0.486s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.486s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.176s] -- Found rosidl_default_generators: 1.0.1 (/home/shunski/ros2_foxy/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[1.290s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[1.294s] -- Found rosidl_adapter: 1.2.1 (/home/shunski/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[1.595s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[2.041s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[2.988s] Error parsing '/home/shunski/aki_ws/src/dog_srv/package.xml':
+[3.230s] Traceback (most recent call last):
+[3.230s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 596, in parse_package_string
+[3.231s]     root = dom.parseString(data)
+[3.231s]   File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString
+[3.231s]     return expatbuilder.parseString(string)
+[3.231s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString
+[3.231s]     return builder.parseString(string)
+[3.231s]   File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString
+[3.231s]     parser.Parse(string, True)
+[3.231s] xml.parsers.expat.ExpatError: mismatched tag: line 11, column 37
+[3.231s] 
+[3.231s] During handling of the above exception, another exception occurred:
+[3.232s] 
+[3.232s] Traceback (most recent call last):
+[3.232s]   File "/home/shunski/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[3.232s]     main()
+[3.232s]   File "/home/shunski/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[3.232s]     raise e
+[3.232s]   File "/home/shunski/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[3.232s]     package = parse_package_string(
+[3.232s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 598, in parse_package_string
+[3.232s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[3.232s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/shunski/aki_ws/src/dog_srv/package.xml':
+[3.232s] The manifest contains invalid XML:
+[3.232s] mismatched tag: line 11, column 37
+[3.263s] CMake Error at /home/shunski/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[3.263s]   execute_process(/usr/bin/python3
+[3.263s]   /home/shunski/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[3.263s]   /home/shunski/aki_ws/src/dog_srv/package.xml
+[3.263s]   /home/shunski/aki_ws/build/dog_srv/ament_cmake_core/package.cmake) returned
+[3.263s]   error code 1
+[3.263s] Call Stack (most recent call first):
+[3.263s]   /home/shunski/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[3.263s]   /home/shunski/ros2_foxy/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[3.263s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[3.263s] 
+[3.264s] 
+[3.264s] -- Configuring incomplete, errors occurred!
+[3.264s] See also "/home/shunski/aki_ws/build/dog_srv/CMakeFiles/CMakeOutput.log".
+[3.272s] Invoked command in '/home/shunski/aki_ws/build/dog_srv' returned '1': /home/shunski/bin/cmake /home/shunski/aki_ws/src/dog_srv -DCMAKE_INSTALL_PREFIX=/home/shunski/aki_ws/install/dog_srv

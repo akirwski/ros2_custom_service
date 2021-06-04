@@ -1,0 +1,19 @@
+In file included from [01m[K/home/shunski/ros2_foxy/install/rclcpp/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/home/shunski/ros2_foxy/install/rclcpp/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/home/shunski/ros2_foxy/install/rclcpp/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/home/shunski/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/home/shunski/ros2_foxy/install/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/home/shunski/ros2_foxy/install/rclcpp/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/home/shunski/ros2_foxy/install/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/home/shunski/ros2_foxy/install/rclcpp/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/home/shunski/ros2_foxy/install/rclcpp/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/home/shunski/ros2_foxy/install/rclcpp/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/shunski/aki_ws/src/cpp_ros2_srv/src/client.cpp:1[m[K:
+[01m[K/home/shunski/aki_ws/src/cpp_ros2_srv/src/client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/shunski/aki_ws/src/cpp_ros2_srv/src/client.cpp:33:90:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct dog_srv::srv::Dog_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct dog_srv::srv::Dog_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knam[m[K’; did you mean ‘[01m[Kname[m[K’?
+   33 | cpp::get_logger("rclcpp"), "got new dog. Name: %s", result.get()->[01;31m[Knam[m[K.c_str());
+      |                                                                   [01;31m[K^~~[m[K
+
+make[2]: *** [CMakeFiles/client.dir/build.make:82: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:99: CMakeFiles/client.dir/all] Error 2
+make: *** [Makefile:160: all] Error 2

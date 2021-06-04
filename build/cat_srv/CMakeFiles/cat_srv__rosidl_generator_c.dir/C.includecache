@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shunski/aki_ws/build/cat_srv/rosidl_generator_c/cat_srv/srv/detail/cat__functions.c
+cat_srv/srv/detail/cat__functions.h
+/home/shunski/aki_ws/build/cat_srv/rosidl_generator_c/cat_srv/srv/detail/cat_srv/srv/detail/cat__functions.h
+assert.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/shunski/ros2_foxy/install/rosidl_runtime_c/include/rosidl_runtime_c/visibility_control.h
+
+rosidl_generator_c/cat_srv/msg/rosidl_generator_c__visibility_control.h
+
+rosidl_generator_c/cat_srv/srv/detail/cat__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/cat_srv/srv/detail/rosidl_runtime_c/visibility_control.h
+cat_srv/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/cat_srv/srv/detail/cat_srv/msg/rosidl_generator_c__visibility_control.h
+cat_srv/srv/detail/cat__struct.h
+rosidl_generator_c/cat_srv/srv/detail/cat_srv/srv/detail/cat__struct.h
+
+rosidl_generator_c/cat_srv/srv/detail/cat__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+

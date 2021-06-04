@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tutorial_interfaces/srv/AddThreeInts.srv
+// generated code does not contain a copyright notice
+
+
+module tutorial_interfaces {
+  module srv {
+    struct AddThreeInts_Request {
+      int32 breed;
+    };
+    struct AddThreeInts_Response {
+      int32 breed;
+    };
+  };
+};

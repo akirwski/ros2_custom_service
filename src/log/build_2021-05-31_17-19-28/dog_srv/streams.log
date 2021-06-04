@@ -1,0 +1,66 @@
+[0.047s] Invoking command in '/home/shunski/aki_ws/src/build/dog_srv': /home/shunski/bin/cmake /home/shunski/aki_ws/src/dog_srv -DCMAKE_INSTALL_PREFIX=/home/shunski/aki_ws/src/install/dog_srv
+[0.160s] -- The C compiler identification is GNU 9.3.0
+[0.295s] -- The CXX compiler identification is GNU 9.3.0
+[0.325s] -- Detecting C compiler ABI info
+[0.426s] -- Detecting C compiler ABI info - done
+[0.439s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.439s] -- Detecting C compile features
+[0.439s] -- Detecting C compile features - done
+[0.442s] -- Detecting CXX compiler ABI info
+[0.553s] -- Detecting CXX compiler ABI info - done
+[0.563s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.564s] -- Detecting CXX compile features
+[0.564s] -- Detecting CXX compile features - done
+[0.584s] -- Found ament_cmake: 0.9.8 (/home/shunski/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+[1.019s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[1.019s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.967s] -- Found rosidl_default_generators: 1.0.1 (/home/shunski/ros2_foxy/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[2.093s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+[2.140s] -- Found rosidl_adapter: 1.2.1 (/home/shunski/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[2.523s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.595s] -- Found FastRTPS: /home/shunski/ros2_foxy/install/fastrtps/include  
+[2.827s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+[3.297s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[4.040s] CMake Error at /home/shunski/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[4.040s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name dog_srv
+[4.040s]   --arguments-file
+[4.040s]   /home/shunski/aki_ws/src/build/dog_srv/rosidl_adapter__arguments__dog_srv.json
+[4.040s]   --output-dir /home/shunski/aki_ws/src/build/dog_srv/rosidl_adapter/dog_srv
+[4.040s]   --output-file
+[4.040s]   /home/shunski/aki_ws/src/build/dog_srv/rosidl_adapter/dog_srv.idls)
+[4.040s]   returned error code 1:
+[4.040s] 
+[4.040s]   Traceback (most recent call last):
+[4.041s] 
+[4.041s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[4.041s]       return _run_code(code, main_globals, None,
+[4.041s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[4.041s]       exec(code, run_globals)
+[4.041s]     File "/home/shunski/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[4.041s]       sys.exit(main())
+[4.041s]     File "/home/shunski/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[4.041s]       abs_idl_file = convert_to_idl(
+[4.041s]     File "/home/shunski/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[4.041s]       return convert_srv_to_idl(
+[4.041s]     File "/home/shunski/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[4.041s]       srv = parse_service_string(package_name, input_file.stem, content)
+[4.041s]     File "/home/shunski/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 852, in parse_service_string
+[4.041s]       request_message = parse_message_string(
+[4.042s]     File "/home/shunski/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string
+[4.042s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[4.042s]     File "/home/shunski/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__
+[4.042s]       self.base_type = BaseType(
+[4.042s]     File "/home/shunski/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[4.042s]       raise InvalidResourceName(
+[4.042s] 
+[4.042s]   rosidl_adapter.parser.InvalidResourceName: 'dog_Request' is an invalid
+[4.042s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[4.042s] 
+[4.042s] Call Stack (most recent call first):
+[4.042s]   /home/shunski/ros2_foxy/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[4.042s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[4.042s] 
+[4.042s] 
+[4.043s] -- Configuring incomplete, errors occurred!
+[4.043s] See also "/home/shunski/aki_ws/src/build/dog_srv/CMakeFiles/CMakeOutput.log".
+[4.055s] Invoked command in '/home/shunski/aki_ws/src/build/dog_srv' returned '1': /home/shunski/bin/cmake /home/shunski/aki_ws/src/dog_srv -DCMAKE_INSTALL_PREFIX=/home/shunski/aki_ws/src/install/dog_srv

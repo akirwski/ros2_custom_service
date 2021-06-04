@@ -1,0 +1,15 @@
+/home/shunski/aki_ws/install/cpp_ros2_srv/share/ament_index/resource_index/package_run_dependencies/cpp_ros2_srv
+/home/shunski/aki_ws/install/cpp_ros2_srv/share/ament_index/resource_index/parent_prefix_path/cpp_ros2_srv
+/home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/environment/ament_prefix_path.dsv
+/home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/environment/path.dsv
+/home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/local_setup.bash
+/home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/local_setup.sh
+/home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/local_setup.zsh
+/home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/local_setup.dsv
+/home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/package.dsv
+/home/shunski/aki_ws/install/cpp_ros2_srv/share/ament_index/resource_index/packages/cpp_ros2_srv
+/home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/cmake/cpp_ros2_srvConfig.cmake
+/home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/cmake/cpp_ros2_srvConfig-version.cmake
+/home/shunski/aki_ws/install/cpp_ros2_srv/share/cpp_ros2_srv/package.xml
+/home/shunski/aki_ws/install/cpp_ros2_srv/lib/cpp_ros2_srv/server
+/home/shunski/aki_ws/install/cpp_ros2_srv/lib/cpp_ros2_srv/client
